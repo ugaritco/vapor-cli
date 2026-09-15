@@ -1,0 +1,67 @@
+{
+    "name": "ugarit/vapor-cli",
+    "description": "The Ugarit Vapor CLI",
+    "keywords": [
+        "ugarit",
+        "vapor"
+    ],
+    "homepage": "https://github.com/ugarit/vapor-cli",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muath R Abu Ouda",
+            "email": "muathrabuouda@hotmail.com",
+            "role": "Vision Leader of Ugarit"
+        },
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@laravel.com",
+            "role": "Original Creator & Primary Developer"
+        }
+    ],
+    "bin": [
+        "vapor"
+    ],
+    "require": {
+        "php": "^7.2|^8.0",
+        "ext-zip": "*",
+        "guzzlehttp/guzzle": "^6.3|^7.0|^8.0",
+        "heritage/container": "^1.00.00",
+        "heritage/filesystem": "^1.00.00",
+        "heritage/support": "^1.00.00",
+        "league/flysystem": "^1.0|^3.0",
+        "league/flysystem-aws-s3-v3": "^1.0|^3.0",
+        "ramsey/uuid": "^3.8|^4.0",
+        "symfony/console": "^4.2|^5.0|^6.0|^7.0|^8.0",
+        "symfony/process": "^4.2|^5.0|^6.0|^7.0|^8.0",
+        "symfony/var-dumper": "^4.2|^5.0|^6.0|^7.0|^8.0",
+        "symfony/yaml": "^4.2|^5.0|^6.0|^7.0|^8.0",
+        "vlucas/phpdotenv": "^3.0|^4.0|^5.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^8.0|^9.0|10.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ugarit\\VaporCli\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ugarit\\VaporCli\\Tests\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "version": "1.00.00"
+}

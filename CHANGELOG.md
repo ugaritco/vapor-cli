@@ -1,0 +1,30 @@
+# Release Notes
+
+## [Unreleased](https://github.com/ugarit/vapor-cli/compare/v1.70.5...master)
+
+## [v1.70.5](https://github.com/ugarit/vapor-cli/compare/v1.70.4...v1.70.5) - 2026-09-03
+
+* Send the request method uppercase so PSR-7 v3 does not break the API by [@datashaman](https://github.com/datashaman) in https://github.com/ugarit/vapor-cli/pull/286
+
+## [v1.70.4](https://github.com/ugarit/vapor-cli/compare/v1.70.3...v1.70.4) - 2026-09-03
+
+## [v1.70.3](https://github.com/ugarit/vapor-cli/compare/v1.70.2...v1.70.3) - 2026-08-05
+
+* Bump actions/checkout from 7.0.0 to 7.0.1 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/ugarit/vapor-cli/pull/281
+* Fix asset upload failures with guzzlehttp/guzzle 7.15+ by [@m074554n](https://github.com/m074554n) in https://github.com/ugarit/vapor-cli/pull/282
+
+## [v1.70.2](https://github.com/ugarit/vapor-cli/compare/v1.65.4...v1.70.2) - 2026-07-24
+
+## [v1.65.4](https://github.com/ugarit/vapor-cli/compare/v1.65.3...v1.65.4) - 2025-01-28
+
+* fix: Retry message not show on first retry and would show when it wouldn't retry by [@mathiasgrimm](https://github.com/mathiasgrimm) in https://github.com/ugarit/vapor-cli/pull/259
+
+## [v1.65.3](https://github.com/ugarit/vapor-cli/compare/v1.65.2...v1.65.3) - 2024-12-17
+
+* [1.x] Allow force deleting vanity domain without confirmation by [@orkhanahmadov](https://github.com/orkhanahmadov) in https://github.com/ugarit/vapor-cli/pull/258
+
+## [v1.65.2](https://github.com/ugarit/vapor-cli/compare/v1.65.1...v1.65.2) - 2024-11-26
+
+## [v1.65.1](https://github.com/ugarit/vapor-cli/compare/v1.65.0...v1.65.1) - 2024-05-23
+
+* Add frankenphp binary to IgnoredFiles while BuildProcess by [@rvzug](https://github.com/rvzug) in https://github.com/ugarit/vapor-cli/pull/254
